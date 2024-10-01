@@ -1,5 +1,9 @@
+import entities.tree.BinaryTree;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        BinaryTree binaryTree = new BinaryTree();
+
+
     }
 }

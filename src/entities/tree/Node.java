@@ -1,11 +1,11 @@
 package entities.tree;
 
-public class Node<t> {
-    t value;
+public class Node {
+    int value;
     Node left;
     Node ritgh;
 
-    public Node (t value){
+    public Node (int value){
         this.value = value;
         this.left = null;
         this.ritgh =  null;
@@ -19,11 +19,11 @@ public class Node<t> {
         this.ritgh = ritgh;
     }
 
-    public t getValue() {
+    public int getValue() {
         return value;
     }
 
-    public void setValue(t value) {
+    public void setValue(int value) {
         this.value = value;
     }
 
