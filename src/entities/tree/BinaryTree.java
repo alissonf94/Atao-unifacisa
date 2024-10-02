@@ -2,9 +2,11 @@ package entities.tree;
 
 public class BinaryTree {
     Node root;
+
     public void insert (int value){
         insertRecursive(value, this.root);
     }
+
     public Node insertRecursive (int value, Node root){
         if (root == null){
             this.root = new Node(value);
